@@ -1,0 +1,12 @@
+rdkit>=2022.9
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+pytest>=7.2
+# AutoDock Vina docking engine (src/silicadd/vina_docking.py).
+# 'vina' is the official AutoDock Vina Python API.
+vina>=1.2.5
+# 'meeko' declares no dependencies of its own, but importing it requires
+# 'gemmi' (meeko.polymer -> meeko.chemtempgen -> gemmi).
+meeko>=0.8.0
+gemmi>=0.7

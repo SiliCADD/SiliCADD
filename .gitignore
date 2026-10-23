@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+**/__pycache__/
+
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+
+# Generated Graphify output
+graphify-out/
+
+# Local Claude Code settings
+.claude/settings.local.json
+.claude/settings.json
+
+# Local Claude Code configuration and skills
+.claude/
+
+# Local Claude Code instructions
+/CLAUDE.md
